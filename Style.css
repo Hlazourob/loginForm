@@ -1,0 +1,111 @@
+body{
+
+    font-family: 'Cairo', sans-serif;
+}
+.LoginForm{
+    margin: 10px auto;
+    background: #edeef3;
+    width:600px;
+    height: auto;
+    border-radius: 8px;
+}
+.mainForm{
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+h1.loginTitle{
+    color: #4db3a5;
+}
+.loginForm{
+    width: 100%;
+    height: auto;;
+}
+.inputStyle{
+    width: 100%;
+    height: 45px;
+    background: #dde3ec;
+    /* outline: 0px; */
+    border: 0px;
+    padding:0px 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.inputStyle:focus{
+    border:1px solid #4db3a5;
+    outline: 0;
+}
+.btnStyle{
+    border:0px;
+    border-radius: 4px;
+    background: #25a597;
+    color:white;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.submitBtn:hover{
+    background: #1f5651;
+    transition-duration: 0.4s;
+}
+
+a.forgetPass{
+    color:black;
+    text-decoration: none;
+}
+a.forgetPass:hover{
+    color: #797878;
+}
+.clear{
+    clear: both;
+}
+
+.leftSide{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.rightSide{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.social{
+  margin-top: 15px;
+}
+
+a.socialIcon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    color:white;
+}
+.gplus{
+    background: #e07b6f;
+}
+.fb{
+    background: #3d5b99;
+}
+.twitter{
+    background: #00aced;
+}
+.footerStyle{
+     background: #6b7a8f;
+     height: 70px;
+     text-align: center;
+     border-bottom-left-radius: 8px;
+     border-bottom-right-radius:8px;
+     line-height: 70px;
+     color: #b1adad;
+}
+.footerStyle a{
+    text-decoration: none;
+    color: #c6c8ca;
+    text-transform: uppercase;
+}
+.footerStyle a:hover{
+    color: #eae9e9
+}
